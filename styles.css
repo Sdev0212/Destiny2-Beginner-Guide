@@ -1,0 +1,78 @@
+@media (prefers-reduced-motion: no-preference) {
+    *{
+        scroll-behavior: smooth;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+    color: black;
+}
+
+/*set up header and navbar*/
+
+#main-header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20%;
+    background-color: aqua;
+}
+
+#header-logo {
+    height: 20%;
+    margin: 2px;
+}
+
+#main-header h1 {
+    border-bottom: 1px solid black;
+}
+
+#navbar {
+    height: 80%;
+}
+
+#navlist {
+    list-style: none;
+}
+
+.navlink {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 20px;
+}
+
+.navlink:hover {
+    color: aliceblue;
+    background-color: brown;
+}
+
+.navlink:active {
+    background-color: black;
+}
+
+/*end of header */
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin-left: 20%;
+}
+
+#introduction-section {
+    width: 100%;
+    text-align: left;
+}

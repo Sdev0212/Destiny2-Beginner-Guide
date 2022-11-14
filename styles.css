@@ -16,7 +16,7 @@ body {
 
 /*set up header and navbar*/
 
-#main-header {
+#mainHeader {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -29,12 +29,12 @@ body {
     background-color: aqua;
 }
 
-#header-logo {
+#headerLogo {
     height: 20%;
     margin: 2px;
 }
 
-#main-header h1 {
+#mainHeader h1 {
     border-bottom: 1px solid black;
 }
 
@@ -72,7 +72,7 @@ main {
     margin-left: 20%;
 }
 
-#introduction-section {
+#introductionSection {
     width: 100%;
     text-align: left;
 }

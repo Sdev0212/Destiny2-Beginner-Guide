@@ -7,11 +7,13 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body {
     background-color: aquamarine;
     color: black;
+    padding-bottom: 200px;
 }
 
 /*set up header and navbar*/
@@ -30,11 +32,12 @@ body {
 }
 
 #headerLogo {
-    height: 20%;
+    aspect-ratio: initial;
     margin: 2px;
 }
 
 #mainHeader h1 {
+    font-size: 30px;
     border-bottom: 1px solid black;
 }
 
@@ -64,12 +67,18 @@ body {
 
 /*end of header */
 
+/* Baseline for body */
+
 main {
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 80%;
     margin-left: 20%;
+}
+
+h1 {
+    font-size: 40px;
 }
 
 .textContainer {
@@ -112,7 +121,17 @@ main {
 }
 
 .classContainer img{
-    align-self: center;
-    height: 50vh;
+    width: 80%;
     margin-top: 10%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* start of more in depth class section */
+
+.classImg {
+    width: 70%;
+    min-width: 500px;
+    max-width: 1000px;
 }
